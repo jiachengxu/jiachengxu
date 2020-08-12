@@ -1,4 +1,9 @@
-### Hi there 👋
+<a>
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=jiachengxu&show_icons=true" />
+</a>
+<a>
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jiachengxu" />
+</a>
 
 <!--
 **jiachengxu/jiachengxu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
