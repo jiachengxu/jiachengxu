@@ -5,6 +5,8 @@
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jiachengxu" />
 </a>
 
+<img src="https://github-profile-trophy.vercel.app/?username=jiachengxu&theme=flat&column=7&margin-w=10" alt="logo" height="160" align="center" />
+
 <!--
 **jiachengxu/jiachengxu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
