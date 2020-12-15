@@ -72,8 +72,8 @@ theme = "LoveIt"
 	  [params.page.comment.utterances]
         enable = true
         # owner/repo
-        repo="jiachengxu/jiachengxu"
-        issueTerm="title"
+        repo="jiachengxu/test"
+        issueTerm="og:title"
         label="kind/comment"
         lightTheme="github-light"
         darkTheme="github-dark"
