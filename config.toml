@@ -11,6 +11,14 @@ theme = "LoveIt"
   # LoveIt theme version
   version = "0.2.X"
 
+  [params.analytics]
+    enable = true
+    # Google Analytics
+    [params.analytics.google]
+      id = "<GOOGLE_ANALYTICS>"
+      # whether to anonymize IP
+      anonymizeIP = false
+
   [params.search]
     enable = true
     # type of search engine ("lunr", "algolia")
@@ -69,10 +77,10 @@ theme = "LoveIt"
     hiddenFromSearch = false
     [params.page.comment]
       enable = true
-	  [params.page.comment.utterances]
+	    [params.page.comment.utterances]
         enable = true
         # owner/repo
-        repo="jiachengxu/test"
+        repo="jiachengxu/jiachengxu"
         issueTerm="og:title"
         label="kind/comment"
         lightTheme="github-light"
