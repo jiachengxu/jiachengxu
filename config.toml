@@ -72,12 +72,11 @@ theme = "LoveIt"
 	  [params.page.comment.utterances]
         enable = true
         # owner/repo
-		repo="https://github.com/jiachengxu/jiachengxu"
-        issue-term="title"
+        repo="jiachengxu/jiachengxu"
+        issueTerm="title"
         label="kind/comment"
-        crossorigin="anonymous"
-        lightTheme = "github-light"
-        darkTheme = "github-dark"
+        lightTheme="github-light"
+        darkTheme="github-dark"
 
  # LoveIt NEW | 0.2.0 Section (all posts) page config
   [params.section]
