@@ -69,26 +69,15 @@ theme = "LoveIt"
     hiddenFromSearch = false
     [params.page.comment]
       enable = true
-      [params.page.comment.valine]
+	  [params.page.comment.utterances]
         enable = true
-        appId = ""
-        appKey = ""
-        placeholder = ""
-        avatar = "mp"
-        meta= ""
-        pageSize = 10
-        lang = ""
-        visitor = true
-        recordIP = true
-        highlight = true
-        enableQQ = false
-        serverURLs = ""
-        # LoveIt NEW | 0.2.6 emoji data file name, default is "google.yml"
-        # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
-        # located in "themes/LoveIt/assets/data/emoji/" directory
-        # you can store your own data files in the same path under your project:
-        # "assets/data/emoji/"
-        emoji = ""
+        # owner/repo
+		repo="https://github.com/jiachengxu/jiachengxu"
+        issue-term="title"
+        label="kind/comment"
+        crossorigin="anonymous"
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
 
  # LoveIt NEW | 0.2.0 Section (all posts) page config
   [params.section]
