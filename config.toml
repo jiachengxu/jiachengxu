@@ -10,14 +10,56 @@ theme = "LoveIt"
 [params]
   # LoveIt theme version
   version = "0.2.X"
+  dateFormat = "2006-01-02"
+  images = ["/images/avatar.png"]
+  noFavicon = false
 
-  [params.analytics]
+  # Header config
+  [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+    # LoveIt NEW | 0.2.0 Header title config
+    [params.header.title]
+      # title name
+      name = "Jiacheng Xu"
+      # LoveIt NEW | 0.2.5 whether to use typeit animation for title name
+      typeit = false
+  # Footer config
+  [params.footer]
+    enable = true
+    # LoveIt NEW | 0.2.0 Custom content (HTML format is supported)
+    custom = 'Thoughts are my own.'
+    # LoveIt NEW | 0.2.0 whether to show Hugo and theme info
+    hugo = true
+    # LoveIt NEW | 0.2.0 whether to show copyright info
+    copyright = true
+    # LoveIt NEW | 0.2.0 whether to show the author
+    author = true
+    # Site creation time
+    since = 2020
+    # ICP info only in China (HTML format is supported)
+    icp = ""
+    # license info (HTML format is supported)
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+  [params.social]
+    GitHub = "jiachengxu"
+    Linkedin = "jiacheng-xu-389530128"
+    Twitter = "xu_jiacheng"
+    Weibo = "3687419095"
+    Zhihu = "xu-jia-cheng-58-3"
+    Email = "xjcmaxwellcjx@gmail.com"
+    RSS = true # LoveIt NEW | 0.2.0
+
+[params.analytics]
     enable = true
     # Google Analytics
     [params.analytics.google]
       id = "<GOOGLE_ANALYTICS>"
       # whether to anonymize IP
-      anonymizeIP = false
+      anonymizeIP = true
 
   [params.search]
     enable = true
@@ -47,39 +89,61 @@ theme = "LoveIt"
     # Home page profile
     [params.home.profile]
       enable = true
-      # Gravatar Email for preferred avatar in home page
-      gravatarEmail = ""
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
-      # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = ""
       # subtitle shown in home page
-      subtitle = "Hey there! I am Jiacheng Xu!"
+      subtitle = "Hey there! I Jiacheng Xu!"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
       social = true
       # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
-      disclaimer = ""
+      disclaimer = "Thoughts are my own."
     # Home page posts
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
       paginate = 6
-      # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
-      # default behavior when you don't set "hiddenFromHomePage" in front matter
-      defaultHiddenFromHomePage = false
 
   [params.page]
     # LoveIt NEW | 0.2.0 whether to hide a page from home page
     hiddenFromHomePage = false
     # LoveIt NEW | 0.2.0 whether to hide a page from search results
     hiddenFromSearch = false
+    # LoveIt NEW | 0.2.0 whether to enable twemoji
+    twemoji = false
+    # whether to enable lightgallery
+    lightgallery = true
+    # whether to show link to Raw Markdown content of the content
+    linkToMarkdown = true
+    [params.page.toc]
+      # whether to enable the table of the contents
+      enable = true
+      # LoveIt NEW | 0.2.9 whether to keep the static table of the contents in front of the post
+      keepStatic = true
+      # whether to make the table of the contents in the sidebar automatically collapsed
+      auto = true
+    [params.page.code]
+      # whether to show the copy button of the code block
+      copy = true
+      # the maximum number of lines of displayed code by default
+      maxShownLines = 10
+
+    # LoveIt CHANGED | 0.2.0 social share links in post page
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = true
+      Reddit = true
+      Weibo = true
+      Baidu = true
+      Evernote = true
+
     [params.page.comment]
       enable = true
-	    [params.page.comment.utterances]
+      [params.page.comment.utterances]
         enable = true
-        # owner/repo
         repo="jiachengxu/jiachengxu"
         issueTerm="og:title"
         label="kind/comment"
@@ -104,32 +168,50 @@ theme = "LoveIt"
     # amount of RSS pages
     rss = 10
 
+  # LoveIt NEW | 0.2.5 TypeIt config
+  [params.typeit]
+    type = "Life is a fucking"
+    deleteNum = 7
+    retype = "fancy movie. 人生如戏。"
+    # typing speed between each step (measured in milliseconds)
+    speed = 100
+    # blinking speed of the cursor (measured in milliseconds)
+    cursorSpeed = 1000
+    # character used for the cursor (HTML format is supported)
+#    cursorChar = "|"
+    # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+    duration = -1
+
+# Author config
+[author]
+  name = "Jiacheng Xu"
+  email = "xjcmaxwellcjx@gmail.com"
+  link = "jiachengxu.me"
+
         
 [menu]
   [[menu.main]]
     identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
     name = "Posts"
     url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
     weight = 1
   [[menu.main]]
     identifier = "tags"
-    pre = ""
-    post = ""
     name = "Tags"
     url = "/tags/"
-    title = ""
     weight = 2
   [[menu.main]]
     identifier = "categories"
-    pre = ""
-    post = ""
     name = "Categories"
     url = "/categories/"
-    title = ""
     weight = 3
+  [[menu.main]]
+    identifier = "open source"
+    name = "Open Source"
+    url = "/open_source/"
+    weight = 4
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 5
