@@ -2,9 +2,9 @@
 title: "Jiacheng Xu 徐嘉诚"
 draft: false
 ---
-<p align="center">
-    <a href="resume-jiacheng-xu.pdf"><img src="https://img.shields.io/badge/resume-english-blue.svg" alt="Resume"></a>
-</p>
+{{< style "img { height: 1.25rem; }" >}}
+[![resume](https://img.shields.io/badge/resume-english-blue.svg)](resume-jiacheng-xu.pdf)
+{{< /style >}}
 
 Gopher. Open source lover. Speedcuber. Bodybuilder. 
 
