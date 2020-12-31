@@ -1,7 +1,7 @@
 ---
 title: "First Post: 为什么我开始写博客"
 draft: false
-date: 2020-12-31
+date: 2020-12-31T21:57:40+08:00
 summary: "我的第一篇博客。"
 resources:
 - name: "featured-image"
