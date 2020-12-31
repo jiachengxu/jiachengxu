@@ -6,6 +6,7 @@ languageCode = "en"
 title = "Jiacheng Xu's Website"
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
+hasCJKLanguage = true
 
 [params]
   # LoveIt theme version
@@ -120,7 +121,7 @@ theme = "LoveIt"
       # LoveIt NEW | 0.2.9 whether to keep the static table of the contents in front of the post
       keepStatic = true
       # whether to make the table of the contents in the sidebar automatically collapsed
-      auto = true
+      auto = false
     [params.page.code]
       # whether to show the copy button of the code block
       copy = true
@@ -148,8 +149,8 @@ theme = "LoveIt"
         lightTheme="github-light"
         darkTheme="github-dark"
 
- # LoveIt NEW | 0.2.0 Section (all posts) page config
-  [params.section]
+# LoveIt NEW | 0.2.0 Section (all posts) page config
+[params.section]
     # special amount of posts in each section page
     paginate = 20
     # date format (month and day)
@@ -176,7 +177,7 @@ theme = "LoveIt"
     # blinking speed of the cursor (measured in milliseconds)
     cursorSpeed = 1000
     # character used for the cursor (HTML format is supported)
-#    cursorChar = "|"
+    cursorChar = "|"
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
     duration = -1
 
@@ -184,7 +185,7 @@ theme = "LoveIt"
 [author]
   name = "Jiacheng Xu"
   email = "xjcmaxwellcjx@gmail.com"
-  link = "jiachengxu.me"
+  link = "https://jiachengxu.me"
 
         
 [menu]
