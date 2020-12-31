@@ -6,7 +6,7 @@ draft: false
 [![resume](https://img.shields.io/badge/resume-english-blue.svg)](resume-jiacheng-xu.pdf)
 {{< /style >}}
 
-Gopher. Open source lover. Speedcuber. Bodybuilder. 
+Gopher. Open source lover. Speedcuber. Bodybuilder.
 
 Currently, Jiacheng is working at [Kubermatic](https://www.kubermatic.com/),
 mainly focusing on building Kubernetes controllers and operators.

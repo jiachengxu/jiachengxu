@@ -187,7 +187,7 @@ hasCJKLanguage = true
   email = "xjcmaxwellcjx@gmail.com"
   link = "https://jiachengxu.me"
 
-        
+
 [menu]
   [[menu.main]]
     identifier = "posts"
