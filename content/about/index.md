@@ -1,6 +1,5 @@
 ---
-title: "About Me"
+title: "Jiacheng Xu 徐嘉诚"
 draft: false
-lightgallery: true
 ---
-My name is Jiacheng Xu
+Gopher. Open source lover. Speedcuber. Bodybuilder. 
