@@ -214,3 +214,6 @@ hasCJKLanguage = true
     name = "About"
     url = "/about/"
     weight = 5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
