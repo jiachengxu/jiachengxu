@@ -18,5 +18,4 @@ jobs:
           plugin_followup: yes
           plugin_followup_sections: user
           plugin_notable: yes
-          plugin_notable_repositories: yes  # Display repositories name instead of only organization name
           plugin_notable_indepth: yes   
