@@ -17,3 +17,4 @@ jobs:
           base: header, repositories
           plugin_followup: yes
           plugin_followup_sections: user
+          plugin_notable: yes
